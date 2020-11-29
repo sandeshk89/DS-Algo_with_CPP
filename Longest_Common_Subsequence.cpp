@@ -21,7 +21,6 @@ int LongestCommonSubsequence(char *str1, char *str2)
             else if (str1[i - 1] == str2[j - 1])
             {
                 grid[i][j] = grid[i - 1][j - 1] + 1;
-                //lcs[(grid[i][j]) - 1] = str1[i];
             }
             else
             {
